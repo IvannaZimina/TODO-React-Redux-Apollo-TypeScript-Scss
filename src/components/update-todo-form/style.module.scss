@@ -1,0 +1,33 @@
+.formContainter {
+  width: 400px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+
+  .inputName {
+      width: 500px;
+  
+      input {
+        width: 475px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+  
+    .updateSelector,
+    .updateTodoBtn {
+      width: 500px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .updateTodoBtn {
+       &:hover {
+        background-color: gray;
+        color: #ffffff;
+
+       }
+    }
+}

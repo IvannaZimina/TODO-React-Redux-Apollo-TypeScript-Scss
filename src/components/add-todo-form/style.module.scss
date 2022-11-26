@@ -1,0 +1,28 @@
+.formContainter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .inputName {
+    width: 500px;
+
+    input {
+      width: 475px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+
+  select,
+  button {
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .createTodoBtn {
+    margin-bottom: 15px;
+  }
+
+}

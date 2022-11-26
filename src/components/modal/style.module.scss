@@ -1,0 +1,26 @@
+.modalBackgroud {
+  position: fixed;
+  background-color: rgba(147, 145, 145, 0.501);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.modalContainer {
+  width: 50%;
+  min-height: 150px;
+  margin: 0 30%;
+  padding: 15px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 5;
+  border-radius: 10px;
+
+  h1 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 15px 15px 15px;
+  }
+}

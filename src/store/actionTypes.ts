@@ -1,0 +1,6 @@
+export const STATUS = "STATUS"
+export const USERNAME = "USERNAME"
+export const TITLE = "TITLE"
+export const IS_CREATED_TODO = "IS_CREATED_TODO"
+export const DELETE_TODO = "DELETE_TODO"
+export const UPDATE_TODO = "UPDATE_TODO"

@@ -1,0 +1,20 @@
+.todoCardContainer {
+    width: 80%;
+    margin: 350px 15%;
+
+    .manageIcons {
+        margin: 30px 0;
+    }
+
+    .statusTodoCard,
+    .usernameTodoCard,
+    .titleTodoCard {
+        font-size: 20px;
+        display: flex;
+
+        p:nth-child(1) {
+            width: 160px;
+        }
+    }
+
+}
